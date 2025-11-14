@@ -1,0 +1,259 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-image: url('brown-bear-emdhkrd5ot16t2pw.jpg');
+    background-color: #ad30fb;
+    padding: 10px 0;
+}
+h1 {
+    text-transform: uppercase;
+  text-shadow: 3px 3px 6px #000;
+  color: #ffffff;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+}
+nav a {
+    color: #fff;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #555;
+}
+.container {
+    padding: 20px;
+}
+.page {
+    display: none;
+
+}
+.page.active {
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+/* Sports Article Styles */
+.sports-article {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 800px;
+    margin: auto;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
+}
+
+.sports-article h3 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.sports-article .meta {
+    text-align: center;
+    font-style: italic;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.sports-img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+.sports-article p {
+    line-height: 1.6;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+.sports-article h4 {
+    margin-top: 25px;
+    font-size: 22px;
+    color: #333;
+    border-left: 4px solid #444;
+    padding-left: 10px;
+}
+
+.highlight-time {
+    font-size: 18px;
+    color: #b30000;
+}
+
+.quote {
+    background: #f1f1f1;
+    padding: 12px;
+    border-left: 4px solid #444;
+    font-style: italic;
+    border-radius: 8px;
+}
+
+/* Editorial Styling */
+.editorial-article {
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    max-width: 850px;
+    margin: auto;
+    box-shadow: 0 0 12px rgba(0,0,0,0.15);
+}
+
+.editorial-article h3 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.editorial-meta {
+    text-align: center;
+    font-style: italic;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.editorial-article p {
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+.editorial-article .highlight {
+    background: #f7f7f7;
+    padding: 10px;
+    border-left: 4px solid #444;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.editorial-article .closing {
+    margin-top: 25px;
+    font-weight: bold;
+    color: #333;
+    border-top: 1px solid #ccc;
+    padding-top: 15px;
+}
+.link {
+  margin: 10px;
+  padding: 10px 10px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-transform: uppercase;
+  box-shadow: 0px 4px 6px #000;
+  transition: 0.3s;
+}
+
+/* Landing Article Styling */
+.landing-article {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 850px;
+    margin: auto;
+    box-shadow: 0 0 12px rgba(0,0,0,0.15);
+}
+
+.landing-article h3 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.subheadline {
+    text-align: center;
+    font-style: italic;
+    color: #444;
+    margin-bottom: 5px;
+}
+
+.meta {
+    text-align: center;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.end-note {
+    margin-top: 40px;
+    font-style: italic;
+    text-align: center;
+}
+
+.landing-article h4 {
+    font-size: 22px;
+    margin-top: 25px;
+    border-left: 4px solid #444;
+    padding-left: 10px;
+}
+
+.landing-article p {
+    line-height: 1.6;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+.quote {
+    background: #f3f3f3;
+    border-left: 4px solid #222;
+    padding: 12px;
+    border-radius: 8px;
+    font-style: italic;
+}
+
+.yt-link {
+    color: #c62828;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.yt-link:hover {
+    text-decoration: underline;
+}
+.photo {
+    font-style: italic;
+    text-align: center;
+    color: #555;
+    margin-bottom: 0px;
+}
+.comment {
+    border:#444 1px solid;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    margin-top: 10px;
+}
+.image-container {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.image-container .sports-img {
+    width: 48%;
+    height: auto;
+}
+
+.captions-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.captions-container .photo {
+    width: 48%;
+    text-align: center;
+}
